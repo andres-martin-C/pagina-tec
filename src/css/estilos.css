@@ -612,19 +612,14 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-3 {
@@ -640,16 +635,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .ms-2 {
   margin-inline-start: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .mt-4 {
@@ -756,6 +743,10 @@ video {
   cursor: pointer;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -773,25 +764,16 @@ video {
        column-gap: 0.5rem;
 }
 
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
-}
-
-.gap-x-0 {
-  -moz-column-gap: 0px;
-       column-gap: 0px;
-}
-
-.gap-x-0\.5 {
-  -moz-column-gap: 0.125rem;
-       column-gap: 0.125rem;
-}
-
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -820,22 +802,9 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-}
-
-.rounded-s {
-  border-start-start-radius: 0.25rem;
-  border-end-start-radius: 0.25rem;
 }
 
 .border {
@@ -844,10 +813,6 @@ video {
 
 .border-\[0\.5px\] {
   border-width: 0.5px;
-}
-
-.border-r {
-  border-right-width: 1px;
 }
 
 .border-\[\#f8dbb0\] {
@@ -912,6 +877,11 @@ video {
   padding: 1.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -940,11 +910,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pl-5 {
@@ -1026,47 +991,8 @@ video {
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-slate-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-black\/10:hover {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.hover\:bg-slate-300\/30:hover {
-  background-color: rgb(203 213 225 / 0.3);
-}
-
-.hover\:bg-slate-300\/65:hover {
-  background-color: rgb(203 213 225 / 0.65);
-}
-
-.hover\:bg-slate-300\/85:hover {
-  background-color: rgb(203 213 225 / 0.85);
-}
-
-.hover\:bg-slate-300\/90:hover {
-  background-color: rgb(203 213 225 / 0.9);
-}
-
-.hover\:bg-slate-200\/90:hover {
-  background-color: rgb(226 232 240 / 0.9);
-}
-
 .hover\:bg-slate-100\/90:hover {
   background-color: rgb(241 245 249 / 0.9);
-}
-
-.hover\:bg-slate-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-400:hover {
