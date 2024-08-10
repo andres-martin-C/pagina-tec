@@ -135,20 +135,75 @@
         </button>
     </div>
     <!-- Comunicados -->
-    <div class="pt-3 px-3 bg-[#E1E1E1]/50">
-        <h3 class="text-center font-bold text-xl">Comunicación</h3>
-        <!-- cartas de comunicación -->
-        <div class="flex items-center justify-center gap-x-2 pt-3">
-            <!-- Botón izquierdo -->
-            <button>
+    <div class="  bg-[#E1E1E1]/50">
+        <h3 class="text-center py-5 font-bold text-2xl">Comunicación</h3>
+        <!-- Contenedor del carrousel de las cartas -->
+        <div class="">
+            <!-- Todas las cartas -->
+            <ul class="grid grid-flow-col auto-cols-max justify-start overflow-hidden gap-x-3">
+                <!-- Los items cartas -->
+                <li class="bg-slate-100 size-96 rounded-lg border  shadow-lg shadow-blue-900 ">
+                    <div class="p-3">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="rounded w-full h-48">
+                    </div>
+
+                    <div class="flex flex-col pl-5 gap-y-2">
+                        <!-- Información de la carta -->
+                        <div class=" flex flex-col gap-y-1.5">
+                            <h2 class="font-bold"> Conferencia internacional Mexicana </h2>
+                            <p class="line-clamp-2">Duis esse incididunt esse adipisicing exercitation. Laborum irure eu non irure id commodo
+                                duis aute tempor laborum eiusmod sunt. Nostrud consequat dolor ex ullamco aliquip sunt
+                                ipsum dolore Lorem voluptate tempor.</p>
+                            <p class=" text-gray-700">22 Abril 2024</p>
+                        </div>
+
+                        <div class="">
+                            <a href="" class=""><button class="bg-blue-900   rounded  text-white py-0.5 px-3">Leer
+                                    mas</button></a>
+                        </div>
+
+
+                    </div>
+
+                </li>
+                <li class="bg-slate-100 size-96 rounded-lg border-4">
+                    <img src="" alt="">
+                    <h2>
+                        El titulo
+                    </h2>
+                    <p>La información</p>
+                </li>
+                <li class="bg-slate-100 size-96 rounded-lg border-4">
+                    <img src="" alt="">
+                    <h2>
+                        El titulo
+                    </h2>
+                    <p>La información</p>
+                </li>
+                <li class="bg-slate-100 size-96">
+                    <img src="" alt="">
+                    <h2>
+                        El titulo
+                    </h2>
+                    <p>La información</p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- cartas de comunicación -->
+    <!-- <div class="flex items-center justify-center gap-x-2 pt-3"> -->
+    <!-- Botón izquierdo -->
+    <!-- <button>
                 <svg class="w-4 h-4 text-black  rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M5 1 1 5l4 4" />
                 </svg>
-            </button>
-            <!-- carta  -->
-            <div class=" bg-white border border-gray-200 rounded-lg w-96 h-[480px]  shadow-2xl ">
+            </button> -->
+    <!-- carta  -->
+    <!-- <div class=" bg-white border border-gray-200 rounded-lg w-96  shadow-2xl ">
                 <a href="#">
                     <img class="w-full bg-black rounded-t-lg"
                         src="https://images.unsplash.com/photo-1542397284385-6010376c5337?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -182,9 +237,9 @@
                 </svg>
             </button>
         </div>
-    </div>
+    </div> -->
     <!-- Contenedor mensaje destacado -->
-    <div class="mt-4 bg-[#192c4d] ">
+    <div class=" bg-[#192c4d] ">
         <h3 class="py-3 text-center text-white font-bold">Mensaje destacado</h3>
         <div class="px-2 flex justify-center">
             <a href="">
@@ -202,8 +257,7 @@
     <!-- contenedor síguenos -->
     <div>
         <h3 class="text-center my-4 font-bold text-2xl">Redes sociales:</h3>
-        <div
-            class="flex justify-center  max-sm:flex-col space-x-2 space-y-2 max-sm:divide-y-4 px-3">
+        <div class="flex justify-center  max-sm:flex-col space-x-2 space-y-2 max-sm:divide-y-4 px-3">
             <div class="">
                 <!-- twitter -->
                 <iframe class="w-full h-full " scrolling="no" frameborder="0" allowtransparency="true"
@@ -351,7 +405,7 @@
                 <div class="flex flex-wrap ">
                     <a href=""><img src="img/facebook-app-symbol.png" class="size-10 hover:scale-125"></a>
                     <a href=""><img src="img/twitter.png" class="size-10 hover:scale-125"></a>
-                    
+
                 </div>
             </div>
         </div>
